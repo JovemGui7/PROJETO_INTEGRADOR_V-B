@@ -176,6 +176,10 @@ No fim, o projeto cumpriu o que se propôs.
 
 4. BIBLIOGRAFIA
 
+https://www.lucidchart.com/ acesso em 6 de abril de 2026.
+
+https://www.tinkercad.com/ acesso em 6 de abril de 2026.
+
 
 
 
