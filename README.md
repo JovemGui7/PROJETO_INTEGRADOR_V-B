@@ -29,7 +29,7 @@ Professor: Thalles Bruno
 
 1.	INTRODUÇÃO
 
-O crescente avanço das tecnologias de Internet e das Coisas (IoT) tem viabilizado soluções inovadoras para o monitoramento e automação de ambientes residenciais. Nesse contexto, este projeto foi desenvolvido com o objetivo de transformar uma residência convencional em um ambiente inteligente, capaz de coletar, processar e exibir dados ambientais em tempo real.
+O crescente avanço das tecnologias de Internet e das Coisas IoT, tem viabilizado soluções inovadoras para o monitoramento e automação de ambientes residenciais. Nesse contexto, este projeto foi desenvolvido com o objetivo de transformar uma residência convencional em um ambiente inteligente, capaz de coletar, processar e exibir dados ambientais em tempo real.
 O projeto integra um hardware embarcado, representado por uma placa Arduino UNO com sensores de temperatura, umidade e luminosidade, a um módulo de software desenvolvido em linguagem Java, responsável pelo processamento e análise dos dados coletados.A interface de visualização foi projetada para dispositivos móveis (smartphones), permitindo o usuário acompanhar as condições do ambiente de forma prática e intuitiva.
 A proposta do projeto não apenas responde essa carencia no setor, mas também aplica, de forma integrada, os conteúdos estudados na disciplina, como IoT, Big Data, programação orientada a objetos, diagrama e prototipação de interfaces.
 
@@ -67,7 +67,7 @@ Como requisito não funcional, o sistema foi projetado para ser modular, de fác
 
 2.2 O QUE FOI DESENVOLVIDO
 
-•	Protótipo de Hardware – Arduino UNO (Tinkercad)
+•	Protótipo de Hardware – Arduino UNO Tinkercad
 
 O protótipo de hardware foi desenvolvido no ambiente Tinkercad Circuits, simulando uma placa Arduino UNO conectada a dois sensores:
 
@@ -110,13 +110,13 @@ Em um ambiente de produção real, a classe ArduinoSimulator seria substituída 
 
 A interface visual foi projetada seguindo os princípios de usabilidade e a experiência do usuário voltados para dispositivos móveis. O protótipo interativo apresenta algumas telas, do login a tela principal de resultados:
 
-•	Tela SensorData: exibe os dados brutos capturados pelo ArduinoSimulator, com barras de progresso indicando o valor relativo de cada sensor e badges coloridos indicando o status atual (NORMAL em verde, HIGH/LOW em vermelho ou amarelo).
+•	Tela SensorData: exibe os dados brutos capturados pelo ArduinoSimulator, com barras de progresso indicando o valor relativo de cada sensor e badges coloridos indicando o status atual.
 
-•	Tela ProcessedData: apresenta o retorno do método toJSON() formatado, os três campos de status (temperatureStatus, humidityStatus, luminosityStatus) e um gráfico de linhas com o histórico das últimas leituras, distinguindo temperatura, umidade e luminosidade por cor.
+•	Tela ProcessedData: apresenta o retorno do método toJSON() formatado, os três campos de status e um gráfico de linhas com o histórico das últimas leituras, distinguindo temperatura, umidade e luminosidade por cor.
 
 2.4 DIFICULDADES ENCONTRADAS
 
-Ao longo do desenvolvimento do projeto, algumas dificuldades técnicas e conceituais foram identificadas e superadas:
+Ao longo do desenvolvimento do projeto, algumas dificuldades técnicas e conceituais foram identificadas:
 
 •	Integração hardware-software: o principal desafio conceitual foi garantir que a nomenclatura utilizada no código Arduino (funções evaluateTemperature(), evaluateHumidity() e evaluateLuminosity()) fosse espelhada fielmente nas classes Java (DataProcessor), mantendo consistência semântica entre as duas camadas da solução.
 
@@ -155,7 +155,7 @@ Ao longo do desenvolvimento do projeto, algumas dificuldades técnicas e conceit
 3.	CONCLUSÃO
 
 
-O projeto de Sistema de Monitoramento Ambiental para a Casa Inteligente de Marcos demonstrou, na prática, a viabilidade e o potencial das tecnologias de Internet das Coisas aplicadas ao cotidiano doméstico. A integração entre o hardware Arduino UNO com sensores de temperatura, umidade e luminosidade e o módulo de software desenvolvido em Java resultou em uma solução funcional.
+O projeto de Sistema de Monitoramento Ambiental para a Casa InteligentE demonstrou, na prática, a viabilidade e o potencial das tecnologias de Internet das Coisas aplicadas ao cotidiano doméstico. A integração entre o hardware Arduino UNO com sensores de temperatura, umidade e luminosidade e o módulo de software desenvolvido em Java resultou em uma solução funcional.
 A adoção de uma arquitetura orientada a objetos bem definida, documentada pelo diagrama de classes, contribuiu significativamente para a organização do código, facilitando a compreensão do fluxo de dados e permitindo que cada componente do sistema pudesse ser evoluído de forma independente. O protótipo mobile, alinhado à mesma nomenclatura do diagrama, estabeleceu uma ponte clara entre o backend Java e a camada de visualização do usuário.
 Como perspectivas de evolução futura, destacam-se: a substituição do ArduinoSimulator por comunicação serial real via porta USB, a publicação de dados via protocolo MQTT para integração com plataformas de IoT como AWS IoT ou Google Cloud IoT, e o desenvolvimento da interface mobile em uma tecnologia nativa como React Native ou Flutter, utilizando o método toJSON() como contrato de API entre o backend e o frontend.
 Em síntese, o projeto cumpriu com todos os objetivos propostos, integrando os conhecimentos de IoT, programação orientada a objetos e design de interfaces em uma solução coerente, didática e com aplicabilidade real.
