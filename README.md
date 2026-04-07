@@ -3,6 +3,7 @@
 SISTEMA DE SENSOR DE TEMPERATURA COM ARDUINO UNO
 
 Alunos: Guilherme de Souza Brito
+
 Professor: Thalles Bruno
 
 
@@ -30,7 +31,9 @@ Professor: Thalles Bruno
 1.	INTRODUÇÃO
 
 O crescente avanço das tecnologias de Internet e das Coisas IoT, tem viabilizado soluções inovadoras para o monitoramento e automação de ambientes residenciais. Nesse contexto, este projeto foi desenvolvido com o objetivo de transformar uma residência convencional em um ambiente inteligente, capaz de coletar, processar e exibir dados ambientais em tempo real.
+
 O projeto integra um hardware embarcado, representado por uma placa Arduino UNO com sensores de temperatura, umidade e luminosidade, a um módulo de software desenvolvido em linguagem Java, responsável pelo processamento e análise dos dados coletados.A interface de visualização foi projetada para dispositivos móveis (smartphones), permitindo o usuário acompanhar as condições do ambiente de forma prática e intuitiva.
+
 A proposta do projeto não apenas responde essa carencia no setor, mas também aplica, de forma integrada, os conteúdos estudados na disciplina, como IoT, Big Data, programação orientada a objetos, diagrama e prototipação de interfaces.
 
 
