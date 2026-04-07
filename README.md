@@ -181,6 +181,3 @@ No fim, o projeto cumpriu o que se propôs.
 4. BIBLIOGRAFIA
 
 
-
-
-Em síntese, o projeto cumpriu com todos os objetivos propostos, integrando os conhecimentos de IoT, programação orientada a objetos e design de interfaces em uma solução coerente, didática e com aplicabilidade real.
