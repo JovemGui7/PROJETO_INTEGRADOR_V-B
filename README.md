@@ -158,7 +158,29 @@ Ao longo do desenvolvimento do projeto, algumas dificuldades técnicas e conceit
 3.	CONCLUSÃO
 
 
-O projeto de Sistema de Monitoramento Ambiental para a Casa InteligentE demonstrou, na prática, a viabilidade e o potencial das tecnologias de Internet das Coisas aplicadas ao cotidiano doméstico. A integração entre o hardware Arduino UNO com sensores de temperatura, umidade e luminosidade e o módulo de software desenvolvido em Java resultou em uma solução funcional.
-A adoção de uma arquitetura orientada a objetos bem definida, documentada pelo diagrama de classes, contribuiu significativamente para a organização do código, facilitando a compreensão do fluxo de dados e permitindo que cada componente do sistema pudesse ser evoluído de forma independente. O protótipo mobile, alinhado à mesma nomenclatura do diagrama, estabeleceu uma ponte clara entre o backend Java e a camada de visualização do usuário.
-Como perspectivas de evolução futura, destacam-se: a substituição do ArduinoSimulator por comunicação serial real via porta USB, a publicação de dados via protocolo MQTT para integração com plataformas de IoT como AWS IoT ou Google Cloud IoT, e o desenvolvimento da interface mobile em uma tecnologia nativa como React Native ou Flutter, utilizando o método toJSON() como contrato de API entre o backend e o frontend.
+
+O desenvolvimento do sistema sensorial vai além da entrega de um protótipo funcional. Na prática, mostrou como tecnologias emergentes, quando bem integradas, conseguem transformar ambientes físicos em espaços inteligentes e adaptados às necessidades do dia a dia.
+
+Durante o projeto, foi possível vivenciar o ciclo completo de desenvolvimento de um sistema IoT: desde a concepção da ideia e a montagem do protótipo no Tinkercad Circuits, passando pela modelagem com o diagrama de classes, até a implementação do módulo Java e a criação da interface mobile. Cada etapa ajudou a aprofundar conhecimentos importantes do curso de Análise e Desenvolvimento de Sistemas, conectando até mesmo as disciplinas como programação orientada a objetos.
+
+Do ponto de vista técnico, a arquitetura se mostrou sólida. A divisão de responsabilidades entre as classes ArduinoSimulator, DataProcessor, ConsolePublisher, SensorData e ProcessedData garantiu um código limpo e preparado. O protocolo de comunicação entre o firmware Arduino e o módulo Java também reflete o escopo do  projeto, permitindo que as duas camadas evoluam de forma independente.
+
+No hardware, o protótipo simulado no Tinkercad validou a viabilidade das conexões entre o Arduino UNO, o sensor DHT11 e o fotoresistor LDR. A coerência entre as funções de avaliação do firmware e os métodos da classe DataProcessor reforça que hardware e software foram pensados juntos, compartilhando os mesmos critérios de decisão.
+A interface mobile, com suas telas SensorData, ProcessedData, mostrou como um protótipo de média fidelidade consegue comunicar o valor do sistema ao usuário final de forma clara e direta.
+
+É claro que o projeto tem limitações próprias do contexto acadêmico: a comunicação com o Arduino é simulada, e a interface ainda não é um aplicativo publicado. Mas reconhecer essas limitações é justamente o que permite planejar e progredir nos próximos passo. Como a integração com comunicação real, protocolos IoT como MQTT, banco de dados para histórico de leituras e notificações para alertas remotos.
+No fim, o projeto cumpriu o que se propôs.
+
+
+
+
+
+
+
+
+4. BIBLIOGRAFIA
+
+
+
+
 Em síntese, o projeto cumpriu com todos os objetivos propostos, integrando os conhecimentos de IoT, programação orientada a objetos e design de interfaces em uma solução coerente, didática e com aplicabilidade real.
