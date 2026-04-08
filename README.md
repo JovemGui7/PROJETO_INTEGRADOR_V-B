@@ -174,10 +174,10 @@ No fim, o projeto cumpriu o que se propôs.
 
 4. ANEXOS
 
- Link do prototipo mobile file:///C:/Users/GUILHERME%20BRITO/OneDrive/Desktop/COD_PROJ_INTEGRADOR/smart_sensorial_prototipo.html
+ Link do prototipo mobile:   file:///C:/Users/GUILHERME%20BRITO/OneDrive/Desktop/COD_PROJ_INTEGRADOR/smart_sensorial_prototipo.html
 
 
-4. BIBLIOGRAFIA
+5. BIBLIOGRAFIA
 
 https://www.lucidchart.com/ acesso em 6 de abril de 2026.
 
